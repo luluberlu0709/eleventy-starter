@@ -7,6 +7,10 @@ module.exports = {
     enabled: false,
   },
   theme: {
+    fontFamily:{
+      'sans':['Open Sans'],
+      'Anton':['Anton'],
+    },
     extend: {
       colors: {
         'gold': '#FFD700',
