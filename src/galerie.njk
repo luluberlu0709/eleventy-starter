@@ -2,10 +2,21 @@
 layout: page
 title: Galerie
 eleventyNavigation:
-key: Galerie
+  key: Galerie
 ---
 
 <div x-data="{open: false}">
+    <ul @click="console.log($event);">
+        <li><img src="/assets/images/thumbnails/animals-1.jpeg" alt="animal1"></li>
+        <li><img src="/assets/images/thumbnails/animals-2.jpeg" alt="animal2"></li>
+        <li><img src="/assets/images/thumbnails/animals-3.jpeg" alt="animal3"></li>
+        <li><img src="/assets/images/thumbnails/animals-4.jpeg" alt="animal4"></li>
+        <li><img src="/assets/images/thumbnails/animals-5.jpeg" alt="animal5"></li>
+        <li><img src="/assets/images/thumbnails/animals-6.jpeg" alt="animal6"></li>
+        <li><img src="/assets/images/thumbnails/animals-7.jpeg" alt="animal7"></li>
+        <li><img src="/assets/images/thumbnails/animals-8.jpeg" alt="animal8"></li>
+        <li><img src="/assets/images/thumbnails/animals-9.jpeg" alt="animal9"></li>
+    </ul>
     <button @click="open = !open">
         Affiche/Cache dialogue
     </button>
