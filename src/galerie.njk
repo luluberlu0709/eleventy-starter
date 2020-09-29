@@ -1,0 +1,15 @@
+---
+layout: page
+title: Galerie
+eleventyNavigation:
+key: Galerie
+---
+
+<div x-data="{open: false}">
+    <button @click="open = !open">
+        Affiche/Cache dialogue
+    </button>
+    <dialog :open="open">
+        Contenu dialogue
+    </dialog>
+</div>
