@@ -7,7 +7,11 @@ module.exports = {
     enabled: false,
   },
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'gold': '#FFD700',
+      }
+    },
   },
   variants: {},
   plugins: [],
