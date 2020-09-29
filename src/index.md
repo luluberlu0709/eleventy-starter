@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Welcome
+title: Welcome Home - Sanitarium
 eleventyNavigation:
   key: Home
 ---
 
-Welcome to Eleventy starter.
+Welcome to the best website ever. 
